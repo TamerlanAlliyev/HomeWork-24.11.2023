@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #003049;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.head {
+    margin: 64px 0 80px;
+}
+
+.head h1 {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.head p {
+    margin-top: 32px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: 1fr;
+    gap: 15px;
+}
+
+.box-1 {
+    display: grid;
+    grid-template-rows: 300px 600px 600px;
+    gap: 15px;
+}
+
+.box-2 {
+    display: grid;
+    grid-template-rows: 450px 300px 500px 235px;
+    gap: 15px;
+}
+
+.box-3 {
+    display: grid;
+    grid-template-rows: 300px 500px 700px;
+    gap: 15px;
+}
+
+.b-1:hover, .b-2:hover, .b-3:hover, .b-4:hover, .b-5:hover, .b-6:hover, .b-7:hover ,.b-8:hover, .b-9:hover, .b-10:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 88px;
+}
+
+button {
+    width: 329px;
+    height: 80px;
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    background: rgba(217, 217, 217, 0.00);
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgba(255, 255, 255, 1);
+    color: #000000;
+    border: 2px solid #FFF;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}

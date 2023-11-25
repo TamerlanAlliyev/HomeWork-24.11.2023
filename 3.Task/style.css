@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+header .list ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header .list a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+header .list a:hover {
+
+    font-weight: 600;
+}
+
+header .lists {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.sign {
+    display: flex;
+    gap: 0 10px;
+}
+
+.sign button {
+    width: 102px;
+    height: 38px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+.sign button:hover {
+    font-weight: 600;
+    transform: scale(105%); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.signup button {
+    background-color: #EF233C;
+    color: #ffffff;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 36px 86px;
+}
+
+.main-container h1 {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 60px;
+    
+}
+
+.main-container p {
+    width: 681px;
+    height: 96px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #A5A5A5;
+    margin-bottom: 110px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn button {
+    width: 233px;
+    height: 54px;
+    background-color: #EF233C;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn button:hover{
+    font-weight: 600;
+    transform: scale(105%); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn a:nth-child(2) {
+    color: #EF233C;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btn a:nth-child(2):hover{
+    font-weight: 600;
+}
